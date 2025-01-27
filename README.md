@@ -1,0 +1,1 @@
+# signageOS Custom Script boilerplate
