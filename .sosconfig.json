@@ -1,0 +1,31 @@
+{
+	"name": "setBrightness",
+	"version": "1.0.0",
+	"description": "This script sets brightness",
+	"dangerLevel": "high",
+	"platforms": {
+    "default": {
+      "rootDir": "default",
+      "mainFile": "setBrightness.js",
+      "runtime": "browser"
+    },
+		"tizen": {
+			"rootDir": "tizen",
+			"mainFile": "setBrightness.js",
+			"runtime": "browser"
+		},
+		"linux": {
+			"rootDir": "linux",
+			"mainFile": "setBrightness.sh",
+			"runtime": "bash"
+		}
+	},
+	"configDefinition": [
+		{
+			"name": "brightness",
+			"valueType": "number",
+			"mandatory": true,
+			"description": "The brightness level to set"
+		}
+	]
+}
