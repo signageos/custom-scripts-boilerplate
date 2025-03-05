@@ -4,11 +4,11 @@
 	"description": "This script sets brightness",
 	"dangerLevel": "high",
 	"platforms": {
-    "default": {
-      "rootDir": "default",
-      "mainFile": "setBrightness.js",
-      "runtime": "browser"
-    },
+		"default": {
+			"rootDir": "default",
+			"mainFile": "setBrightness.js",
+			"runtime": "browser"
+		},
 		"tizen": {
 			"rootDir": "tizen",
 			"mainFile": "setBrightness.js",
