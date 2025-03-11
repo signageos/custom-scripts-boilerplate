@@ -52,4 +52,6 @@ The general structure of the `platforms` field is as follows:
 - `{mainFile}` - entry point of the platform implementation. This file will be executed
 - `{runtime}` - runtime of the platform. It should be one of: `ps1`, `bash`, `sh`, `nodejs`, `browser`, `brs`
 
-<!-- TODO document configDefinition -->
+### Config Definition
+
+`configDefinition` is a mandatory item, keep it empty if you do not need any variables (`"configDefinition": []`).
